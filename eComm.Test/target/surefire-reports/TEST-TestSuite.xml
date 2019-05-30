@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="4" name="TestSuite" time="0.83" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\eclipse-workspace\eComm.Test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\eclipse-workspace\eComm.Test"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\marwa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3865251947440958687.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_211/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_211/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_211/bin/../jre/lib/amd64;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;C:\Users\marwa\Downloads\eclipse-java-photon-M6-win32-x86_64\eclipse;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\marwa"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="marwa"/>
+    <property name="java.class.path" value="C:\Users\marwa\Downloads\eclipse-java-photon-M6-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test -Dstyle.color=always"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\eclipse-workspace\eComm.Test\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="test.ProductSearchTest" name="productItemSearch" time="0.246">
+    <failure message="Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9304, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3181a2e8-2446-4c61-8a31-29c7a2fe0fbb
+*** Element info: {Using=id, value=idofElement}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9304, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3181a2e8-2446-4c61-8a31-29c7a2fe0fbb
+*** Element info: {Using=id, value=idofElement}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at test.ProductSearchTest.productItemSearch(ProductSearchTest.java:34)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2d363fb3
+Element is Displayed
+</system-out>
+    <system-err>1559177687695	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\marwa\\AppData\\Local\\Temp\\rust_mozprofile.Gwe0mFjcuvy4&quot;
+1559177689029	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1559177689030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1559177689032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1559177689034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+1559177692754	Marionette	INFO	Listening on port 54567
+1559177693223	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 29, 2019 8:54:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="test.ProductSearchTest" name="productItemSearch" time="0.211">
+    <failure message="Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7672, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63000e73-fcdc-4fa5-a9e8-3d3b9bf881fa
+*** Element info: {Using=id, value=idofElement}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7672, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63000e73-fcdc-4fa5-a9e8-3d3b9bf881fa
+*** Element info: {Using=id, value=idofElement}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at test.ProductSearchTest.productItemSearch(ProductSearchTest.java:34)
+</failure>
+    <system-out>Element is Displayed
+Element is Displayed
+</system-out>
+    <system-err>1559177702588	Marionette	INFO	Stopped listening on port 54567
+[Parent 9304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559177710487	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\marwa\\AppData\\Local\\Temp\\rust_mozprofile.tT6AKY7qAk3V&quot;
+1559177711846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1559177711846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1559177711846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1559177711846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+1559177715426	Marionette	INFO	Listening on port 54664
+1559177715493	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 29, 2019 8:55:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="test.ProductSearchTest" name="productItemSearch" time="0.197">
+    <failure message="Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11044, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae615cc6-2e3d-467a-82a7-b7b0798938a3
+*** Element info: {Using=id, value=idofElement}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11044, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae615cc6-2e3d-467a-82a7-b7b0798938a3
+*** Element info: {Using=id, value=idofElement}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at test.ProductSearchTest.productItemSearch(ProductSearchTest.java:34)
+</failure>
+    <system-out>Element is Displayed
+Element is Displayed
+</system-out>
+    <system-err>1559177725299	Marionette	INFO	Stopped listening on port 54664
+[Parent 7672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7092, Chrome_ChildThre
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559177733138	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\marwa\\AppData\\Local\\Temp\\rust_mozprofile.Y0uzCxGhyssf&quot;
+1559177734499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1559177734499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1559177734500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1559177734500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+1559177738141	Marionette	INFO	Listening on port 54756
+1559177738180	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 29, 2019 8:55:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="test.ProductSearchTest" name="productItemSearch" time="0.176">
+    <failure message="Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1360, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 18522f53-ffbe-4de7-82fa-f8e459aed135
+*** Element info: {Using=id, value=idofElement}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #idofElement
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4LQORMC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190523115432, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1360, moz:profile: C:\Users\marwa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 18522f53-ffbe-4de7-82fa-f8e459aed135
+*** Element info: {Using=id, value=idofElement}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at test.ProductSearchTest.productItemSearch(ProductSearchTest.java:34)
+</failure>
+    <system-out>Element is Displayed
+Element is Displayed
+</system-out>
+    <system-err>1559177747561	Marionette	INFO	Stopped listening on port 54756
+[Parent 11044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558608837/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9196, Chrome_ChildThread] WARNING: pipe error: 109
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559177754778	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\marwa\\AppData\\Local\\Temp\\rust_mozprofile.VVIvyV6HjVLJ&quot;
+1559177756135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1559177756135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1559177756136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1559177756136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+1559177759925	Marionette	INFO	Listening on port 54844
+1559177760269	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 29, 2019 8:56:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
